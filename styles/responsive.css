@@ -41,4 +41,10 @@
         line-height: 40px;
     }
 
+
+    .sponsors-img{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+ 
 }

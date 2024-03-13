@@ -89,3 +89,24 @@ main {
   background-image: url(../images/Circle\ design.svg);
   width: 100%;
 }
+
+
+/* sponsors section */
+
+.sponsors-section{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-bottom: 1px solid gainsboro;
+  border-top: 1px solid gainsboro;
+}
+
+
+.sponsors-img{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
+  
+}
