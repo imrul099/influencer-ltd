@@ -1,0 +1,21 @@
+@media screen and (max-width:576px){
+    nav,
+    nav .menu{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header{
+        margin: 20px;
+    }
+
+    .menu{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .menu a .fa-solid{
+        gap: 8px;
+    }
+
+}
