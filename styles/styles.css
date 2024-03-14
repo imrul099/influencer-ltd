@@ -211,3 +211,46 @@ main {
   line-height: normal;
   cursor: pointer;
 }
+
+/* footer section */
+
+.footer {
+  background: #0a0826;
+  padding: 90px 0px;
+  margin-top: 50px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.footer-section h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-section p{
+  color: #D9DBE1;
+  font-size: 14px;
+  font-weight: 700;
+
+}
+
+.footer-section .contact-us{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.fa-brands{
+  font-size: 2rem;
+  cursor: pointer;
+}
