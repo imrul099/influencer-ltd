@@ -163,12 +163,11 @@ main {
   letter-spacing: 0.252px;
 }
 
-.card-section{
+.card-section {
   position: relative;
-  
 }
 
-.see-more{
+.see-more {
   color: #e02c6d;
   font-size: 1rem;
   font-weight: 700;
@@ -176,4 +175,39 @@ main {
   margin-top: 20px;
   left: 90%;
   top: 100%;
+}
+
+/* feature section */
+
+.feature-section {
+  margin-top: 120px;
+  display: flex;
+  gap: 90px;
+  align-items: center;
+}
+
+.feature-container h3 {
+  color: #0a0826;
+  font-size: 2.375rem;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.feature-container p {
+  color: #6c6c6c;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.btn-second {
+  background: #e02c6d;
+  padding: 10px 24px;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
 }

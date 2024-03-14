@@ -18,7 +18,8 @@
        gap: 8px;
     }
 
-    .banner{
+    .banner,
+    .feature-section{
         flex-direction: column-reverse;
         justify-content: center;
     }
@@ -70,5 +71,16 @@
         width: 90%;
         object-fit: cover;
         display: block;
+    }
+
+    /* featured section */
+    .feature-section{
+        margin: 70px 10px;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .btn-second{
+        margin-top: 20px;
     }
 }
