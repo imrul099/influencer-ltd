@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #f8f7f9;
 }
 
 body {
@@ -67,22 +66,22 @@ main {
   line-height: 70px;
 }
 
-.banner-text-container p{
-    color: #3a3a3a;
-    font-size: 1rem;
-    font-weight: 600;
+.banner-text-container p {
+  color: #3a3a3a;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
-.btn-primary{
-    background: #E02C6D;
-    border-radius: 2.56rem; 
-    color: #ffffff;
-    padding: 10px 2px;
-    border: none;
-    margin-top: 16px;
-    font-size: 1rem;
-    font-weight: 700;
-    padding-left: 10px;
+.btn-primary {
+  background: #e02c6d;
+  border-radius: 2.56rem;
+  color: #ffffff;
+  padding: 10px 2px;
+  border: none;
+  margin-top: 16px;
+  font-size: 1rem;
+  font-weight: 700;
+  padding-left: 10px;
 }
 
 .img-container img {
@@ -90,23 +89,76 @@ main {
   width: 100%;
 }
 
-
 /* sponsors section */
 
-.sponsors-section{
+.sponsors-section {
   margin-top: 100px;
   margin-bottom: 100px;
   border-bottom: 1px solid gainsboro;
   border-top: 1px solid gainsboro;
 }
 
-
-.sponsors-img{
+.sponsors-img {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 20px;
   margin-top: 20px;
-  
-  
+}
+
+/* card section */
+
+.card-title {
+  text-align: center;
+  color: #3a3a3a;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+}
+
+.grid-container {
+  min-height: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.single-gear {
+  background: #f6f0fc;
+  padding: 14px;
+  border-radius: 8px;
+}
+
+.single-gear img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.single-gear h3 {
+  color: #18191f;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 40px;
+  margin-top: 16px;
+}
+
+.single-gear h4 {
+  color: #18191f;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.single-gear .rating {
+  display: flex;
+  gap: 8px;
+  margin: 8px 0px;
+}
+
+.single-gear .descrip {
+  color: #787885;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.252px;
 }

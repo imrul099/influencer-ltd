@@ -41,10 +41,30 @@
         line-height: 40px;
     }
 
+    /* sponsor section */
+    .sponsors-section{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
     .sponsors-img{
         flex-wrap: wrap;
         gap: 20px;
     }
- 
+
+
+    /* card section */
+
+    .card-section{
+        margin: 0 10px;
+    }
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+    
+    .single-gear img{
+        width: 90%;
+        object-fit: cover;
+        display: block;
+    }
 }
